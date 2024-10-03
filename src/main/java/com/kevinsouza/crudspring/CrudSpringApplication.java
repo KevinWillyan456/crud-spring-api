@@ -21,11 +21,11 @@ public class CrudSpringApplication {
 
 			Course c = new Course();
 			c.setName("Angular com Spring Boot");
-			c.setCategory("Fullstack");
+			c.setCategory("full-stack");
 
 			Course c2 = new Course();
 			c2.setName("React com Spring Boot");
-			c2.setCategory("Fullstack");
+			c2.setCategory("full-stack");
 
 			courseRepository.save(c);
 			courseRepository.save(c2);
